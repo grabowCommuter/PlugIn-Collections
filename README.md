@@ -11,7 +11,7 @@ To create a collection, you have to define a JSON-Array according to the followi
 
 `[ { "modueId": "<fullname of repro>" }, ... }`
 
-An example of an collection:
+An example of a collection:
    
        [
             	{ "moduleId":"grabowCommuter/Speedometer" },
@@ -21,15 +21,15 @@ An example of an collection:
 
 ###Publish a collection
 
-To publish a collection of PlugIns the following steps must be executed:
+To publish a collection, the following steps must be executed:
 
 1. Create a new repository on github.
 
 2. Put the string `(com.grabow.commuter.collection)` somewhere into the description of the repro. ACom will search for repros containing this string in the description. 
 
-3. Save the collection in the master-branch of your repro under the name `collection.js`. Check the path to your Collection-file - it should be similar to the following example: `https://raw.githubusercontent.com/grabowCommuter/TestCollection/master/collection.js`
+3. Save the collection in the master-branch of your repro under the name `collection.js`. Check the path to your collection-file - it should be similar to the following example: `https://raw.githubusercontent.com/grabowCommuter/TestCollection/master/collection.js`
 
-5. Your done.
+4. Your done.
 
 ----
 ####Hint: 
