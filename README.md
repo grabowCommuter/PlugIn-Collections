@@ -8,6 +8,7 @@ You can define your own collection of PlugIns, e.g. "The top-ten for California"
 ### Create a collection
 
 To create a collection, you have to define a JSON-Array according to the following structure:
+
 `[ { "modueId": "<fullname of repro>" }, ... }`
 
 An example of an collection:
